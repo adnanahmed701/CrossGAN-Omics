@@ -65,6 +65,6 @@ This step trains the conditional CycleGAN model to learn bidirectional mappings 
 
 ## Notes
 
-- Latent representations generated from AE.py are required before training the GAN
+- Latent representations generated from autoencoder_train.py are required before training the GAN
 - Condition labels are used for class-aware generation
 - Generated latent samples can be used for downstream tasks such as data augmentation or predictive modeling
