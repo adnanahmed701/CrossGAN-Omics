@@ -5,7 +5,7 @@ CrossGAN-Omics is a class-aware generative framework for bidirectional translati
 The framework operates in two stages. First, each modality is compressed into a low-dimensional latent representation using autoencoders. Second, a conditional CycleGAN-based model learns bidirectional mappings between these latent spaces, conditioned on class labels. This enables generation of synthetic samples in either modality while preserving class-specific biological structure.
 
 <p align="center">
-  <img src="images/framework.png" width="800">
+  <img src="images/model_arch.png" width="800">
 </p>
 
 ---
